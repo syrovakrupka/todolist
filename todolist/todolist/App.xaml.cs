@@ -13,8 +13,8 @@ namespace todolist
 		{
 			InitializeComponent();
 
-			MainPage = new todolist.MainPage();
-		}
+			MainPage = new NavigationPage( new todolist.MainPage()) ; 
+		} 
 
 		protected override void OnStart ()
 		{

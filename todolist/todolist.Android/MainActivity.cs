@@ -23,5 +23,7 @@ namespace todolist.Droid
             LoadApplication(new App());
         }
     }
+
+
 }
 
